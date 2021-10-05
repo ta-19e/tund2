@@ -1,3 +1,5 @@
+const sum = require('./sum');
+
 const test1 = 123;
 const test2 = 123;
 const test3 = 123;
@@ -8,3 +10,5 @@ function hello() {
 }
 
 console.log(hello());
+
+console.log(sum(1, 5));
