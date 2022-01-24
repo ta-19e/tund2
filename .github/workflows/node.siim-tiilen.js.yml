@@ -6,8 +6,9 @@ name: Siimu action
 # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
 on:
   push:
-    branches:
-      - '*'
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   build:
