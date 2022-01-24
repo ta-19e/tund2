@@ -4,7 +4,10 @@
 name: Siimu action
 
 # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
-on: push
+on:
+  push:
+    branches:
+      - '*'
 
 jobs:
   build:
